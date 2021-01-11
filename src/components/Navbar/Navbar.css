@@ -1,0 +1,50 @@
+.navbar {
+    width: 100vw;
+    padding: 15px 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    transition: all 0.3s;
+}
+
+.color {
+    background-color: rgb(70,80,123);
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.452);
+}
+
+.light {
+    color: rgba(70, 80, 123, 0.418);
+}
+
+.dark { 
+    color: rgba(255, 255, 255, 0.459);
+}
+
+.nav-link {
+    padding: 3px;
+    margin: 0 13px;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.35s;
+}
+
+.light:hover {
+    color: rgb(70,80,123);
+}
+
+.dark:hover {
+    color: rgb(255, 255, 255);
+}
+
+
+.nav-link-active.light{
+    color: rgb(70,80,123);
+    border-bottom: 2px solid;
+}
+
+.nav-link-active.dark{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid;
+}

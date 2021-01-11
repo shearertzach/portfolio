@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+.homepageMainContainer {
+    position: absolute;
+    top: 8%;
+    right: 0;
+    width: 85%;
+    height: 100vh;
+    max-width: 700px;
+    padding: 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+.introName {
+    text-align: right;
+    margin-bottom: 60px;
+}
+
+.introCareer {
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.introSkillsText {
+    text-align: right;
+    
+}
+
+.skillsContainer {
+    text-align: right;
+    margin-bottom: 60px;
+}
+
+.skillsContainer svg {
+    width: 58px;
+    margin-right: 15px;
+}
+
+
+.myProjectsInfoContainer {
+    margin-bottom: 60px;
+}
+
+.myProjectsText {
+    text-align: left;
+}
+
+.actionButton {
+    text-align: center;
+    border: 1px solid rgb(70,80,123);
+    padding: 10px 40px;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    transition: all 0.3s;
+    background-color: rgb(70,80,123);
+}
+
+.actionButton:hover {
+    background-color: transparent;
+    color: rgb(70,80,123);
+    border: 1px solid rgb(70,80,123);
+}
+
+
+.aboutMeContainer {
+    text-align: right;
+}
+
+.tooltipHome {
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .homepageMainContainer h1, .homepageMainContainer div {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .homepageMainContainer {
+        background-color: rgba(255, 255, 255, 0.877);
+        position: inherit;
+        padding: 20px;
+        margin: 0 auto;
+        
+    }
+}
+
