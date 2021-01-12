@@ -1,0 +1,23 @@
+.footer {
+    width: 100%;
+    height: 30px;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 2%;
+    right: 3%;
+
+}
+
+.footer img {
+    height: 37px;
+    float: right;
+    margin: 0 7px;
+    transition: all 0.25s;
+    background-color: white;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.footer img:hover {
+    transform: scale(1.25, 1.25);
+}
