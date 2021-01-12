@@ -1,0 +1,13 @@
+.projects {
+    width: 95%;
+    max-width: 800px;
+    position: absolute;
+    right: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectCard {
+    max-width: 350px;
+    margin: 10px;
+}
