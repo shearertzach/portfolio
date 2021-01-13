@@ -3,11 +3,44 @@
     max-width: 800px;
     position: absolute;
     right: 2%;
+}
+
+.projectsContainer {
     display: flex;
+    margin-top: 85px;
     flex-wrap: wrap;
+    align-self: flex-start;
 }
 
 .projectCard {
     max-width: 350px;
     margin: 10px;
+}
+
+.projectCard a {
+    text-decoration-color: white;
+}
+
+.projectCard img {
+    width: 100%;
+}
+
+.backButton {
+    position: absolute;
+    top: 2%;
+    left: 0;
+    text-align: center;
+    border: 1px solid rgb(70, 80, 123);
+    padding: 10px 40px;
+    text-decoration: none;
+    color: rgb(70, 80, 123);
+    font-weight: 400;
+    transition: all 0.3s;
+}
+
+.backButton:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(70, 80, 123);
+    background-color: rgb(70, 80, 123);
 }
