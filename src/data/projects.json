@@ -6,15 +6,9 @@
         "external-link": "https://github.com/shearertzach/college-football-hub"
     },
     {
-        "name": "Placeholder",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "https://i.imgur.com/lOAK4IU.png",
-        "external-link": ""
-    },
-    {
-        "name": "Placeholder 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-        "img": "https://i.imgur.com/lOAK4IU.png",
-        "external-link": ""
+        "name": "Boring Stocks",
+        "description": "Boring Stocks is a minimalistic stock website for the average trader. It provides you with the most least, but most important, details about a ticker.",
+        "img": "https://imgur.com/vdv4weo.png",
+        "external-link": "https://boringstocks.live/"
     }
 ]
